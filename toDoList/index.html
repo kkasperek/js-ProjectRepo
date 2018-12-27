@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JS Timer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div class="content container">
+        <h1 class="center">JavaScript To Do List</h1>
+        <!-- add task -->
+        <div class="row center">
+            <div class="col s10">
+                <input id="new-task" placeholder="Add a new task..." type="text">
+            </div>
+            <div class="col s2">
+                <button id="addButton" class="btn-floating btn-large waves-effect waves-light red">Add</button>
+            </div>
+        </div>
+    
+        <!-- to do tasks here -->
+        <div class="row">
+            <div class="col s12">
+                <h4>TO DO:</h4>
+                <ul id="task-list">
+                    <li class="task">
+                        <label>
+                            <input type="checkbox" class="filled-in" />
+                            <span></span>
+                        </label>
+                        <div class="input-field inline">
+                            <input value="Learn React.js" disabled />
+                        </div>
+                        <button class="edit btn-small btn-flat waves-effect"> <i class="material-icons">edit</i></button>
+                        <button class="delete btn-small btn-flat waves-effect"> <i class="material-icons">clear</i></button>
+        
+                    </li>
+                    <li class="task">
+                        <label>
+                            <input type="checkbox" class="filled-in" />
+                            <span></span>
+                        </label>
+                        <div class="input-field inline">
+                            <input value="Finish to do list" disabled />
+                        </div>
+                        <button class="edit btn-small btn-flat waves-effect"> <i class="material-icons">edit</i></button>
+                        <button class="delete btn-small btn-flat waves-effect"> <i class="material-icons">clear</i></button>
+        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!-- made by me -->
+<footer class="footer">
+    <span>KKasperek | 
+      <a href="https://github.com/kkasperek" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/katie-kasperek-966bb6174/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </span>
+  </footer>
+
+<script src="script.js"></script>
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+</body>
+</html>

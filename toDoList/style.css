@@ -1,0 +1,16 @@
+  .content {
+    min-height: calc(100vh - 70px);
+    padding: 40px 40px 0 40px;
+  }
+  .footer {
+    float: right;
+    padding: 20px;
+    height: 50px;
+  }
+  .taskInput {
+    margin: 40px 20px;
+  }
+  .btn-flat{
+    padding-left: 6px;
+    padding-right: 6px;
+  }
